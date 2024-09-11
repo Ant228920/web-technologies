@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Align</title>
+</head>
+<body>
+<fieldset>
+  <legend>Особисті дані</legend>
+<form action="questionnaire.html" method="get">
+  <br><label for="name">Введіть ім'я:</label>
+  <input type="text" name="first_name" id="name" placeholder="Введіть ім'я" required tabindex="1"><br>
+  <br><label for="surname">Введіть прізвище: </label>
+  <input type="text" name="last_name" id="surname" placeholder="Введіть фамілію" required tabindex="2"><br>
+  <br><label for="password">Введіть пароль</label>
+  <input type="password" name="pass" id="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}" placeholder="Введіть пароль" required tabindex="3"><br>
+  <br><label for="email">Введіть емейл</label>
+  <input type="email" name="mail" id="email" pattern="(?=,*@gmail.com)" placeholder="Введіть email" required autocomplete="off" tabindex="3"><br>
+  <br><label for="telephone">Введіть номер телефону</label>
+  <input type="tel" name="tele" id="telephone" pattern="(?=.*+380)" placeholder="Введіть номер телефону" tabindex="4"><br>
+  <br><label for="data">Введіть дату народження</label>
+  <input type="date" id="data" name="data" tabindex="5"><br>
+</form>
+</fieldset>
+<fieldset>
+  <legend>Quetionarry</legend>
+  <form action="questionnaire.html" method="post" enctype="multipart/form-data">
+    <br><label for="about">Напишіть щось про себе</label><br>
+    <textarea id="about" name="about" tabindex="6"></textarea>
+    <br><label>Виберіть ваш гендер </label><br>
+    <input type="radio" name="gender" id="gender" tabindex="7">
+    <label for="gender">Жінка </label><br>
+    <input type="radio" name="gender" checked id="gender1" tabindex="8">
+    <label for="gender1">Чоловік </label><br>
+    <input type="radio" name="gender" id="gender2" tabindex="9">
+    <label for="gender2">Інше </label><br>
+    <label for="city">Виберіть місто</label><br>
+    <select name="city" id="city" tabindex="10">
+      <option value="city1">Київ</option>
+      <option value="city2" selected>Недобоївці</option>
+      <option value="city3">Чернівці</option>
+      <option value="city4">Вінниця</option>
+      <option value="city5">Тернопіль</option>
+      <option value="city6">Дніпро</option>
+      <option value="city7">Хмельницький</option>
+      <option value="city8">Закарпаття</option>
+    </select><br>
+    <label for="traits">Виберіть ваші риси</label><br>
+    <select multiple name="traits" id="traits" tabindex="11">
+      <option value="trait1">Спокійний</option>
+      <option value="trait2">Добрий</option>
+      <option value="trait3">Тихий</option>
+      <option value="trait4">Цілеспрямований</option>
+      <option value="trait5">Цікавий</option>
+    </select><br>
+    <label for="groups">Виберіть спеціальність за якою навчаєтеся</label><br>
+    <select id="groups" name="speciality" tabindex="12">
+      <optgroup label="ІФТКН">
+        <option>Комп'ютерні науки</option>
+        <option>ІПЗ</option>
+        <option>Комп'ютерна інженерія</option>
+      </optgroup>
+      <optgroup label="Иньяз">
+        <option>перекладач Французька мова</option>
+        <option>перекладач Англійська мова</option>
+        <option>перекладач Німецька мова</option>
+      </optgroup>
+      <optgroup label="факультет педагогіки психології та соціальної роботи спеціальності">
+        <option>Педагог</option>
+        <option>Соціальна психологія</option>
+        <option>Практична психологія</option>
+      </optgroup>
+      <optgroup label="факультет педагогіки психології та соціальної роботи спеціальності">
+        <option>Прикладна математика</option>
+        <option>Системний аналіз</option>
+        <option>Математика</option>
+      </optgroup>
+    </select><br>
+    <label for="audio" tabindex="14">Скиньте аудіофайл</label>
+    <input type="file" id="audio" name="audio"><br>
+  </form>
+</fieldset>
+<input type="submit" name="submit">
+<input type="reset" name="reset"><br>
+<a href="../index.html">Повернутися на головну</a>
+</body>
+</html>
