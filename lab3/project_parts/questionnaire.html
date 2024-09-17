@@ -37,8 +37,13 @@
     <label for="gender1">Чоловік </label><br>
     <input type="radio" name="gender" id="gender2" tabindex="9">
     <label for="gender2">Інше </label><br>
+    <label for="status" tabindex="10">Виберіть статус</label><br>
+    <input type="checkbox" id="status" name="status">
+    <label for="status">Одружній</label><br>
+    <input type="checkbox" name="status">
+    <label for="status">Не Одружній</label><br>
     <label for="city">Виберіть місто</label><br>
-    <select name="city" id="city" tabindex="10">
+    <select name="city" id="city" tabindex="11">
       <option value="city1">Київ</option>
       <option value="city2" selected>Недобоївці</option>
       <option value="city3">Чернівці</option>
@@ -49,7 +54,7 @@
       <option value="city8">Закарпаття</option>
     </select><br>
     <label for="traits">Виберіть ваші риси</label><br>
-    <select multiple name="traits" id="traits" tabindex="11">
+    <select multiple name="traits" id="traits" tabindex="12">
       <option value="trait1">Спокійний</option>
       <option value="trait2">Добрий</option>
       <option value="trait3">Тихий</option>
@@ -57,7 +62,7 @@
       <option value="trait5">Цікавий</option>
     </select><br>
     <label for="groups">Виберіть спеціальність за якою навчаєтеся</label><br>
-    <select id="groups" name="speciality" tabindex="12">
+    <select id="groups" name="speciality" tabindex="13">
       <optgroup label="ІФТКН">
         <option>Комп'ютерні науки</option>
         <option>ІПЗ</option>
@@ -79,6 +84,13 @@
         <option>Математика</option>
       </optgroup>
     </select><br>
+    <label for="subject">Улюблений предмет</label><br>
+    <input list="subjec" name="subject" id="subject">
+    <datalist id="subjec">
+      <option value="Math"></option>
+      <option value="Ukrainian"></option>
+      <option value="English"></option>
+    </datalist><br>
     <label for="audio" tabindex="14">Скиньте аудіофайл</label>
     <input type="file" id="audio" name="audio"><br>
   </form>

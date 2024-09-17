@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7a86dd9-69e5-4869-b913-7e776e1939bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab2/hyperlink.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/hyperlink.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/lab2Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/lab2Task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/lab2Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/lab2Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/page1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_parts/questionnaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_parts/questionnaire.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.map.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.questionnaire.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.table.html.executor&quot;: &quot;Run&quot;,
@@ -76,6 +73,10 @@
       <workItem from="1725969680191" duration="92000" />
       <workItem from="1725980921086" duration="6832000" />
       <workItem from="1726037712506" duration="499000" />
+      <workItem from="1726038404340" duration="120000" />
+      <workItem from="1726044059586" duration="3035000" />
+      <workItem from="1726272318026" duration="38000" />
+      <workItem from="1726272896026" duration="809000" />
     </task>
     <servers />
   </component>

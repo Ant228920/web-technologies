@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+}
+h1{
+  color: red;
+}
+h2{
+    font-style: italic;
+}
+.headlines{
+    font-weight: bold;
+}
+.underlined{
+    text-decoration-line: underline;
+}
+.line-through{
+    text-decoration-line: line-through;
+}
+hr#line{
+    width: 500px;
+    height: 5px;
+    background-color: green;
+}
+span#yellow{
+    background-color: yellow;
+}
+.final{
+    font-family: monospace;
+    font-style: italic;
+}
