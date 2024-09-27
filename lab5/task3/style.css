@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(232, 232, 230);
+    font-family: monospace;
+}
+.block_info{
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    border: 20px ;
+    box-shadow: 0 5px 15px 0 black;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
+.title_info{
+    font-size: 25px;
+}
+.Google{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 30px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.google_txt{
+    background-color: cornflowerblue;
+    padding: 5px;
+    vertical-align: center;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    text-decoration: none;
+}
+.name_info{
+    padding-bottom: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+}
+input#first_name{
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 1s linear, width 0.5s linear;
+}
+input#first_name:focus{
+    background-color: yellow;
+    width: 80%;
+}
+.surname_info{
+    padding-bottom: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;;
+}
+input#last_name{
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 1s linear, width 0.5s linear;
+}
+input#last_name:focus{
+    background-color: yellow;
+    width: 80%;
+}
+.password_info{
+    padding-bottom: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+}
+input#password{
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 1s linear, width 0.5s linear;
+}
+input#password:focus{
+    background-color: yellow;
+    width: 80%;
+}
+.email_info{
+    padding-bottom: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+}
+input#email{
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 1s linear, width 0.5s linear;
+}
+input#email:focus{
+    background-color: yellow;
+    width: 80%;
+}
+.telephone_info{
+    margin: 10px;
+    display: inline-block;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+}
+input#telephone_index{
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+}
+input#telephone{
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex-grow: 1; /* Поле телефону розширюється на всю доступну ширину */
+    font-size: 16px;
+    border-radius: 10px ;
+    transition: background-color 1s linear;
+}
+input#telephone:focus{
+    background-color: yellow;
+}
+.date_info{
+    padding-bottom: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+}
+input#data{
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    transition: background-color 1s linear;
+}
+input#data:hover{
+    background-color: yellow;
+}
+.city{
+    margin: 30px 0 30px 0;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+}
+select#city {
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+    outline: none;
+    color: #74646e;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: background-color 0.5s linear;
+}
+select#city:hover{
+    background-color: yellow;
+}
+.button{
+    padding-bottom: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+}
+.submit{
+    font-size: 18px;
+    transition: background-color 0.5s linear;
+}
+.submit:hover{
+    background-color: aqua;
+}
+.reset{
+    font-size: 18px;
+    transition: background-color 0.5s linear;
+}
+.reset:hover{
+    background-color: aqua;
+}

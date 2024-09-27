@@ -1,0 +1,31 @@
+/* Стилізація контейнера для введення номера телефону */
+.phone-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    background-color: #f9f9f9;
+}
+
+/* Стилізація випадаючого списку для коду країни */
+.country-code {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    appearance: none; /* Прибирає стандартні стрілки браузера */
+    cursor: pointer;
+}
+
+/* Стилізація поля для введення номера телефону */
+.phone-number {
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex-grow: 1; /* Поле телефону розширюється на всю доступну ширину */
+    font-size: 16px;
+}
+

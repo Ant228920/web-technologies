@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Align</title>
+</head>
+<body>
+<fieldset class="block_info">
+  <legend class="title_info">Особисті дані</legend>
+  <div class="Google">
+    <div class="logo"><a href="https://www.google.com/intl/uk/account/about/">
+      <img src="img/logo.png" alt="logo"></a>
+    </div>
+    <div class="google_txt"><a href="https://www.google.com/intl/uk/account/about/">Зареєструватися через Google</a></div>
+  </div>
+  <form action="questionnaire.html" method="get">
+    <div class="name_info">
+    <br><label for="first_name" class="label_name">Введіть ім'я:</label><br>
+    <input type="text" name="first_name" id="first_name" placeholder="Введіть ім'я" required tabindex="1"><br>
+    </div>
+    <div class="surname_info">
+    <br><label for="last_name">Введіть прізвище: </label><br>
+    <input type="text" name="last_name" id="last_name" placeholder="Введіть фамілію" required tabindex="2"><br>
+    </div>
+    <div class="password_info">
+    <br><label for="password">Введіть пароль</label><br>
+    <input type="password" name="password" id="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}" placeholder="Введіть пароль" required tabindex="3"><br>
+    </div>
+    <div class="email_info">
+    <br><label for="email">Введіть емейл</label><br>
+    <input type="email" name="email" id="email" pattern="(?=,*@gmail.com)" placeholder="Введіть email" required autocomplete="off" tabindex="3"><br>
+    </div>
+    <label for="telephone_index">Введіть номер телефону: </label><br>
+    <div class="telephone_info">
+      <select name="telephone_index" id="telephone_index">
+        <option value="+380" id="UA">UA(+380)</option>
+        <option value="+1" selected id="US">US(+1)</option>
+        <option value="+44" id="GB">GB(+44)</option>
+        <option value="+49" id="DE">DE(+49)</option>
+      </select>
+    <input type="tel" name="telephone" id="telephone" pattern="(?=.*+380)" placeholder="Введіть номер телефону" tabindex="4"><br>
+    </div>
+    <div class="date_info">
+    <br><label for="data">Введіть дату народження</label><br>
+    <input type="date" id="data" name="data" tabindex="5"><br>
+    </div>
+    <div class="gender">
+    <br><label>Виберіть ваш гендер </label><br>
+    <input class="gender" type="radio" name="gender" id="gender-female" tabindex="7">
+    <label for="gender-female">Жінка </label>
+    <input class="gender" type="radio" name="gender" checked id="gender-male" tabindex="8">
+    <label for="gender-male">Чоловік </label>
+    <input class="gender" type="radio" name="gender" id="gender-other" tabindex="9">
+    <label for="gender-other">Інше </label><br>
+    </div>
+    <div class="city">
+      <label for="city">Виберіть місто</label><br>
+      <select name="city" id="city" tabindex="11">
+        <option value="Kyiv">Київ</option>
+        <option value="Nedoboivcy" selected>Недобоївці</option>
+        <option value="Chernivtsi">Чернівці</option>
+        <option value="Vinnitsa">Вінниця</option>
+        <option value="Ternopil">Тернопіль</option>
+        <option value="Dnipro">Дніпро</option>
+        <option value="Khmelnytskyi">Хмельницький</option>
+        <option value="Zakarpattya">Закарпаття</option>
+      </select><br>
+    </div>
+    <div class="button">
+      <input class="submit" type="submit" name="submit" value="Відправити">
+      <input class="reset" type="reset" name="reset" value="Скинути"><br>
+    </div>
+  </form>
+</fieldset>
+</body>
+</html>

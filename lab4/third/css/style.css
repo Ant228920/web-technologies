@@ -1,26 +1,33 @@
-ul a{
+ul a {
     color: purple;
 }
-.menu{
+
+.menu {
     color: green;
 }
-.square{
+
+.square {
     list-style-type: square;
 }
-.pinkto{
+
+.pinkto {
     list-style-type: none;
     list-style-image: url("li.svg");
 }
-ul li ul{
+
+ul li ul {
     list-style-type: none;
 }
-ul .square a{
+
+ul .square a {
     text-decoration-line: none;
 }
-ul ul a{
+
+ul ul a {
     text-decoration: none;
     color: black;
 }
-ul a ul{
+
+ul a ul {
     list-style-type: decimal;
 }

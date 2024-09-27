@@ -1,0 +1,107 @@
+.plan{
+    background-color: rgb(255,165,0);
+    width: 500px;
+    padding: 20px;
+    color: white;
+}
+.title{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 0;
+}
+.plan-list li{
+    padding: 0 20px 0 50px;
+    background-color: rgb(103, 158, 128);
+}
+
+.plan-sublist{
+    font-size: 18px;
+    font-style: italic;
+}
+.plan-sublist li{
+    padding-left: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(153, 180, 102);
+}
+span{
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+}
+.plan-title{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(199, 124, 106);
+    margin-bottom: 10px;
+}
+.plan-subtitle{
+    background-color: rgb(218, 106, 32);
+    margin-left: 5px;
+}
+.plan-item{
+    background-image: url("img/rule.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-left: 50px;
+}
+.icon-phone{
+    background-image: url("img/ad_units.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    padding-left: 10px;
+}
+.icon-ticket{
+    background-image: url("img/airplane_ticket.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    padding-left: 50px;
+}
+.icon-hotel{
+    background-image: url("img/hotel.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    padding-left: 50px;
+}
+.icon-auto{
+    background-image: url("img/car_rental.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    padding-left: 50px;
+}
+.icon-bars{
+    background-image: url("img/local_bar.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    padding-left: 50px;
+}
+.icon-casinos{
+    background-image: url("img/casino.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    padding-left: 50px;
+}
+.icon-museums{
+    background-image: url("img/museum.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    padding-left: 50px;
+}
+.icon-festivals{
+    background-image: url("img/festival.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    padding-left: 50px;
+}

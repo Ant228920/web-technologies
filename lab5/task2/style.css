@@ -1,0 +1,31 @@
+table, td{
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 700px;
+    color: white;
+}
+tr:nth-child(n+2) td:nth-child(1){
+    background-color: rgb(168, 70, 50);
+}
+tr:nth-child(2n){
+    background-color: rgb(217, 127, 104);
+}
+tr:nth-child(2n+1){
+    background-color: rgb(240, 182, 168);
+}
+tr:nth-child(1) td:nth-child(1){
+    background-color: rgb(245, 217, 211);
+}
+tr:nth-child(1) td:nth-child(2){
+    background-color: rgb(217, 127, 104);
+}
+tr:nth-child(1) td:nth-child(3){
+    background-color: rgb(232, 165, 151);
+}
+tr:nth-child(1) td:nth-child(4){
+    background-color: rgb(158, 81, 65);
+}
+tr:nth-child(1) td:nth-child(5){
+    background-color: rgb(77, 39, 31);
+}
