@@ -42,6 +42,12 @@ span{
     background-color: rgb(218, 106, 32);
     margin-left: 5px;
 }
+.has-icon{
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-left: 50px;
+}
 .plan-item{
     background-image: url("img/rule.svg");
     background-size: 40px;

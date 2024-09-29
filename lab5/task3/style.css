@@ -170,22 +170,26 @@ select#city:hover{
     background-color: yellow;
 }
 .button{
-    padding-bottom: 30px;
-    border-radius: 20px;
     display: inline-block;
     width: 400px;
 }
 .submit{
     font-size: 18px;
     transition: background-color 0.5s linear;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
 }
 .submit:hover{
-    background-color: aqua;
+    background-color: yellow;
 }
 .reset{
     font-size: 18px;
     transition: background-color 0.5s linear;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
 }
 .reset:hover{
-    background-color: aqua;
+    background-color: yellow;
 }

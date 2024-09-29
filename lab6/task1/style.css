@@ -1,0 +1,56 @@
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+.navigation_menu{
+    padding: 20px;
+    justify-content: space-between;
+
+    display: flex;
+}
+.logo img{
+    height: 150px;
+    width: 150px;
+}
+ul {
+    padding: 20px;
+    list-style: none;
+}
+li {
+    margin: 10px;
+    float: left;
+}
+
+
+li a{
+    display: inline-block;
+    padding: 10px;
+    background: orange;
+    text-decoration: none;
+}
+.text_block{
+    column-count: 3;
+    padding: 5px;
+    column-gap: 50px;
+    text-align: justify;
+    vertical-align: top;
+    column-width: 200px;
+    column-rule: 5px dotted red;
+
+}
+.photo{
+    padding: 5px;
+}
+.first_column{
+    float: right;
+}
+.second_column{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+.third_column{
+    height: 200px;
+    width: 200px;
+    float: right;
+}

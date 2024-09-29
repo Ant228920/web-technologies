@@ -1,0 +1,69 @@
+.container{
+    margin: 0 auto;
+    width: 1250px;
+}
+.navigation_menu{
+    padding: 20px;
+    justify-content: space-between;
+
+    display: flex;
+}
+.logo img{
+    height: 150px;
+    width: 150px;
+}
+ul {
+    padding: 20px;
+    list-style: none;
+}
+li {
+    margin: 10px;
+    float: left;
+}
+
+
+li a{
+    display: inline-block;
+    padding: 10px;
+    background: orange;
+    text-decoration: none;
+}
+.block{
+    padding: 20px;
+    margin: 0 auto 20px;
+    width: 80%;
+    border-radius: 30px;
+}
+.title{
+    text-align: center;
+}
+.first{
+    color: white;
+    background-color: darkred;
+}
+.second{
+    background-color: rosybrown;
+    color: white;
+    justify-content: space-between;
+}
+.subblock{
+    text-align: justify;
+    display: inline-block;
+    border-radius: 30px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+.block14{
+    margin-right: 50px;
+    width: 40%;
+    background-color: orangered;
+}
+.block15{
+    width: 40%;
+    background-color: orangered;
+}
+.title2{
+    text-align: center; /* Центрування заголовків */
+    width: 100%;
+}

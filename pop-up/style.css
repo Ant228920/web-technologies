@@ -1,31 +1,148 @@
-/* Стилізація контейнера для введення номера телефону */
-.phone-input {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 5px;
-    width: 300px;
-    background-color: #f9f9f9;
+
+body {
+    margin: 0;
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+.header {
+    float: right;
+}
+.header__nav {
+    margin-left: auto;
+}
+li{
+    list-style: none;
+    margin: 0 10px 0 10px;
+    float: left;
+}
+a {
+    color: grey;
+    text-decoration: none;
 }
 
-/* Стилізація випадаючого списку для коду країни */
-.country-code {
-    border: none;
-    background-color: transparent;
-    padding: 5px;
-    font-size: 16px;
+a:hover {
+    color: dimgray;
+    text-decoration: underline;
+}
+a:focus, .checkbox_main:focus {
     outline: none;
-    appearance: none; /* Прибирає стандартні стрілки браузера */
+    box-shadow: 0 0 0 2px yellow;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.nav__list-item {
+    margin-left: 20px;
+}
+
+.nav .nav-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .nav-icon img {
+    width: 100%;
+    height: 100%;
+}
+.checkbox_main {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background-image: url('icons/popup-button.png');
+    background-size: cover;
     cursor: pointer;
 }
 
-/* Стилізація поля для введення номера телефону */
-.phone-number {
-    border: none;
-    outline: none;
-    padding: 5px;
-    flex-grow: 1; /* Поле телефону розширюється на всю доступну ширину */
-    font-size: 16px;
+/* Попап */
+.popup__wrapper {
+    position: absolute;
+    background-color: whitesmoke;
+    display: none;
+    text-align: center;
+    /* Встановлено flex для центрування вмісту */
+    justify-content: center; /* Центрування по горизонталі */
+    align-items: center;
+    right: 50px;
+    float: left;
+    top: 60px; /* Можна налаштувати відстань зверху */
 }
+
+/* Контейнер з обмеженням висоти */
+.popup__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    position: relative;
+    max-height: 550px; /* Максимальна висота */
+    overflow-y: auto;  /* Активуємо скролінг, якщо вміст перевищує висоту */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* Відображення попапу при натисканні на чекбокс */
+.checkbox_main:checked ~ .nav-details__popup .popup__wrapper {
+    display: block;
+}
+.apps__list {
+
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.apps__item {
+    width: 70px;
+}
+
+.app-item a {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+    color: dimgray;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.app-item a:hover {
+    background: snow;
+}
+.app-item a img {
+    width: 40px;
+    height: 40px;
+}
+.checkbox_more{
+    display: none;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    cursor: pointer;
+}
+.button_more{
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+    background-color: ghostwhite;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.more__apps{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox_more:checked ~ .more__apps {
+    display: inline-block;
+}
+.more__link{
+    text-align: center;
+}
+
+
 
