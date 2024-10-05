@@ -4,25 +4,26 @@
 }
 .navigation_menu{
     padding: 20px;
-    justify-content: space-between;
-
-    display: flex;
+}
+.logo{
+    float: left;
 }
 .logo img{
     height: 150px;
     width: 150px;
 }
-ul {
+.menu {
+    float: right;
     padding: 20px;
     list-style: none;
 }
-li {
+.menu li {
     margin: 10px;
     float: left;
 }
 
 
-li a{
+.menu li a{
     display: inline-block;
     padding: 10px;
     background: orange;
@@ -60,9 +61,9 @@ li a{
     border-color: green greenyellow green greenyellow;
 }
 .fifth{
-    border-radius: 100% 50% / 10% 40%;
-    border: solid 20px;
-    border-color: greenyellow green greenyellow green;
+    border: 20px solid;
+    border-radius: 150px 50px / 75px 25px;
+    border-color: greenyellow green;
 }
 .sixth{
     border: solid 20px;
@@ -123,9 +124,13 @@ li a{
     border-style: solid;
 }
 .eleventh{
-    border-radius: 50px;
-    border: double orange 16px;
-    border-image: url("images/rhomb2.png") 70 repeat repeat;
+    background-color: white;
+    border: 20px solid white;
+    width: 300px;
+    padding: 5px;
+
+    border-image: url("images/eleven.jpg");
+    border-image-slice: 30;
 
 }
 .twelfth{

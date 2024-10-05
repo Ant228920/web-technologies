@@ -1,37 +1,37 @@
 .container{
     margin: 0 auto;
-    width: 1140px;
+    width: 1250px;
 }
 .navigation_menu{
     padding: 20px;
-    justify-content: space-between;
-
-    display: flex;
+}
+.logo{
+    float: left;
 }
 .logo img{
     height: 150px;
     width: 150px;
 }
-ul {
+.menu {
+    float: right;
     padding: 20px;
     list-style: none;
 }
-li {
+.menu li {
     margin: 10px;
     float: left;
 }
-
-
-li a{
+.menu li a{
     display: inline-block;
     padding: 10px;
     background: orange;
     text-decoration: none;
 }
 .text_block{
+    clear: both;
     column-count: 3;
     padding: 5px;
-    column-gap: 50px;
+    column-gap: 35px;
     text-align: justify;
     vertical-align: top;
     column-width: 200px;
@@ -39,18 +39,17 @@ li a{
 
 }
 .photo{
-    padding: 5px;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
 }
 .first_column{
     float: right;
 }
 .second_column{
     float: left;
-    height: 200px;
-    width: 200px;
+
 }
 .third_column{
-    height: 200px;
-    width: 200px;
     float: right;
 }

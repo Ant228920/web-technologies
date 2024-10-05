@@ -4,31 +4,33 @@
 }
 .navigation_menu{
     padding: 20px;
-    justify-content: space-between;
-
-    display: flex;
+}
+.logo{
+    float: left;
 }
 .logo img{
     height: 150px;
     width: 150px;
 }
-ul {
+.menu {
+    float: right;
     padding: 20px;
     list-style: none;
 }
-li {
+.menu li {
     margin: 10px;
     float: left;
 }
 
 
-li a{
+.menu li a{
     display: inline-block;
     padding: 10px;
     background: orange;
     text-decoration: none;
 }
 .block{
+    clear: both;
     padding: 20px;
     margin: 0 auto 20px;
     width: 80%;
@@ -37,33 +39,29 @@ li a{
 .title{
     text-align: center;
 }
-.first{
+.block13{
     color: white;
     background-color: darkred;
 }
-.second{
+.block14{
     background-color: rosybrown;
     color: white;
+}
+.inside_container{
+    display: flex;
     justify-content: space-between;
 }
-.subblock{
+.inside_block{
     text-align: justify;
-    display: inline-block;
     border-radius: 30px;
-    justify-content: space-between;
     padding: 20px;
-    margin: 10px;
-}
-.block14{
-    margin-right: 50px;
-    width: 40%;
-    background-color: orangered;
+    margin: 10px 20px 10px 0;
 }
 .block15{
     width: 40%;
     background-color: orangered;
 }
-.title2{
-    text-align: center; /* Центрування заголовків */
-    width: 100%;
+.block16{
+    width: 40%;
+    background-color: orangered;
 }

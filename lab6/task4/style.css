@@ -1,0 +1,66 @@
+.container{
+    margin: 0 auto;
+    width: 1250px;
+}
+.navigation_menu{
+    padding: 20px;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    height: 150px;
+    width: 150px;
+}
+.menu {
+    float: right;
+    padding: 20px;
+    list-style: none;
+}
+.menu li {
+    margin: 10px;
+    float: left;
+}
+
+
+.menu li a{
+    display: inline-block;
+    padding: 10px;
+    background: orange;
+    text-decoration: none;
+}
+
+.blocks{
+    display: inline-block;
+
+}
+.block{
+    position: relative;
+    padding: 20px;
+    text-align: justify;
+    float: left;
+    margin: 40px;
+    list-style-type: none;
+    height: 300px;
+    width: 250px;
+    border: 1px solid green;
+    justify-content: center;
+}
+.first{
+    box-shadow: -10px -10px 5px 0 green;
+}
+.second{
+    box-shadow: 0 0 10px 10px green;
+}
+.third{
+    box-shadow: 5px 5px 10px 0 green;
+}
+.fourth{
+    box-shadow: 0 0 50px 10px green;
+}
+.fifth{
+    box-shadow: inset 0 5px 0 0 green, inset 5px 0 0 0 blue, inset 0 -5px 0 0 yellow, inset -5px 0 0 0 red;
+}
+.sixth{
+    box-shadow: 0 -10px 0 -5px yellow, 0 10px 0 -5px green;
+}
