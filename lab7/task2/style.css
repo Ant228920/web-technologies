@@ -1,0 +1,53 @@
+.block{
+    position: absolute;
+    text-align: center;
+}
+.block2\.2{
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: -112px;
+    background-color: blue;
+}
+.block1\.1{
+    margin-right: 300px;
+    top: 120px;
+    max-width: 200px;
+    max-height: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.block1\.1:after{
+    position: absolute;
+    display: block;
+    content: '';
+    height: 100px;
+    width: 100px;
+    bottom: 20px;
+    left: 100px;
+}
+.block2\.1{
+    visibility: hidden;
+    left: 120px;
+    width: 200px;
+    height: 140px;
+    background-color: blue;
+}
+.block1\.2{
+    width: 100px;
+    height: 30px;
+    background: green;
+    bottom: 0;
+    margin: 5px;
+}
+.wrapper .block1\.1:hover + .block2\.1{
+    visibility: visible;
+}
+.block2\.1:hover{
+    visibility: visible;
+}
+.block1\.2:hover + .block2\.2{
+    visibility: visible;
+}

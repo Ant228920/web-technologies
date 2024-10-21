@@ -51,34 +51,28 @@ img{
     background: linear-gradient(50deg, green, yellow, blue, orange);
 }
 .second{
-    background-image: linear-gradient(45deg, green 20%, transparent 25%, transparent 25%, transparent 75%, orange 75%, blue 100%),
-    linear-gradient(50deg, yellow 20%, transparent 25%, transparent 25%, transparent 75%, purple 75%, orange 100%);
+    background-image: linear-gradient(45deg, green 20%, transparent 25%, transparent 75%, orange 75%, blue 100%),
+    linear-gradient(50deg, yellow 20%, transparent 25%, transparent 75%, purple 75%, orange 100%);
     background-size: 100px 100px;
-    background-position: 5px 5px, 50px 50px;
+    background-position:0 0, 50px 50px;
 }
 .third{
-    background: repeating-linear-gradient(
-            to left,
-            white 60%,
-            green 80%,
-            yellow 80%,
-            blue 100%
-    );
-
+    background: repeating-linear-gradient(to left, white 60%, green 80%, yellow 80%, blue 100%, transparent 50%);
 }
 
 .fourth{
-    background-image: linear-gradient(to left top, yellow 35%, transparent 10%, transparent 100%),
-    linear-gradient(to right top, green 25%, transparent 10%, transparent 100%),
-    linear-gradient(to right bottom, orange 25%, transparent 50%, transparent 70%),
-    linear-gradient(to left bottom, blue 25%, transparent 60%, transparent 100%);
+    background-image:
+    linear-gradient(to left top, yellow 35%, transparent 10%),
+    linear-gradient(to right top, green 30%, transparent 20%),
+    linear-gradient(to right bottom, orange 25%, transparent 50%),
+    linear-gradient(to left bottom, blue 25%, transparent 50%);
 }
 .fifth {
     background: repeating-linear-gradient(
-            190deg,
+            200deg,
             rgba(255, 0, 0, 0.5) 40px,
             rgba(255, 153, 0, 0.5) 80px,
-            rgba(255, 255, 0, 0.5) 120px,
+            rgba(255, 255, 0, 0.5) 100px,
             rgba(0, 255, 0, 0.5) 160px,
             rgba(0, 0, 255, 0.5) 200px,
             rgba(75, 0, 130, 0.5) 240px,
@@ -86,7 +80,7 @@ img{
             rgba(255, 0, 0, 0.5) 300px
     ),
     repeating-linear-gradient(
-            -190deg,
+            -200deg,
             rgba(255, 0, 0, 0.5) 30px,
             rgba(255, 153, 0, 0.5) 60px,
             rgba(255, 255, 0, 0.5) 90px,
@@ -95,16 +89,6 @@ img{
             rgba(75, 0, 130, 0.5) 180px,
             rgba(238, 130, 238, 0.5) 210px,
             rgba(255, 0, 0, 0.5) 230px
-    ),
-    repeating-linear-gradient(
-            23deg,
-            red 50px,
-            orange 100px,
-            yellow 150px,
-            green 200px,
-            blue 250px,
-            indigo 300px,
-            violet 350px,
-            red 370px
     );
+
 }

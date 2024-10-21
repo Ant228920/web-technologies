@@ -1,0 +1,155 @@
+form{
+    display: block;
+    margin: 0 auto;
+    width: 620px;
+    border: 20px solid #868686;
+    background-image: url("images/1678811025_bogatyr-club-p-fon-krutoi-yarkii-foni-vkontakte-67.jpg");
+    font-family: Arial, serif;
+    padding: 0 20px 20px 20px;
+}
+.title{
+    position: relative;
+    left: 140px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    width: 340px;
+    text-indent: 20px;
+    height: 40px;
+    color: #7d21b3;
+    font-style: italic;
+    overflow: hidden;
+}
+.title:first-letter{
+    font-size: 38px;
+    color: hotpink;
+}
+.title-block:before{
+    display: block;
+    position: relative;
+    top: 45px;
+    left: 10px;
+    content: '';
+    width: 160px;
+    height: 2px;
+    background-color: red;
+}
+.title-block:after{
+    display: block;
+    position: relative;
+    content: '';
+    bottom: 35px;
+    left: 470px;
+    width: 160px;
+    height: 2px;
+    background-color: red;
+}
+
+.line{
+    position: relative;
+    bottom: 10px;
+    width: 350px;
+    border: 1px solid red
+}
+.row{
+    height: 100px;
+}
+.block {
+    display: inline-block;
+}
+.block input, textarea{
+    font-weight: 700;
+    text-indent: 20px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+label, button{
+    color: white;
+    font-size: 18px;
+}
+input, textarea{
+    color: black;
+    font-size: 16px;
+}
+.reppass, .email{
+    position: relative;
+    top: 15px;
+}
+textarea{
+    width: 610px;
+    height: 46px;
+    padding: 5px;
+    resize: none;
+}
+.forms{
+    margin: 10px 0 10px 0;
+    width: 250px;
+    height: 30px;
+}
+.email, .reppass, .last_name{
+    display: inline-block;
+    float: right;
+}
+
+#text:hover, #email:hover, #first_name:hover, #last_name:hover{
+    border-bottom: 4px solid #fbff00;
+}
+#text:focus, #email:focus, #first_name:focus, #last_name:focus{
+    border-bottom: 4px solid #ffa600;
+}
+#password:hover, #reppass:hover{
+    border-bottom: 4px solid #1eff00;
+}
+#password:focus, #reppass:focus{
+    border-bottom: 4px solid #00ffea;
+}
+textarea:hover{
+    box-shadow: 10px 10px rgb(233, 27, 154, 0.6);
+}
+
+.buttons{
+    text-align: right;
+}
+.button{
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    cursor: pointer;
+    clear: both;
+}
+.reset{
+    border: 3px #e64a19;
+    color: #e64a19;
+}
+.reset:hover{
+    border: 3px #e64a19;
+    color: white;
+    background-color: #e64a19;
+    border-radius: 15px;
+}
+.reset:active{
+    border: 3px solid #eefd00;
+    background-color: #a02904;
+    border-radius: 25px;
+    position: relative;
+}
+.submit{
+    border: 3px #0097a7;
+    color: #0097a7;
+}
+.submit:hover{
+    border: 3px solid #0097a7;
+    color: white;
+    background-color: #0097a7;
+    border-radius: 25px;
+}
+.submit:active{
+    border: 3px solid #cefd00;
+    background-color: #014950;
+    border-radius: 25px;
+    position: relative;
+}
